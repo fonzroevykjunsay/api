@@ -7,10 +7,12 @@
 
 <form action="pro_create.php" method="POST">
 <h1> Create Product </h1>
-<input type="text" name="name" placeholder="name"/>
-<input type="text" name="description" placeholder="description"/>
-<input type="text" name="price" placeholder="price"/>
-<select name="category">
+	<ul>
+<li><input type="text" name="name" placeholder="name"/></li>
+<li><input type="text" name="description" placeholder="description"/></li>
+<li><input type="text" name="price" placeholder="price"/></li>
+<li><select name="category"></li>
+	</ul>
 <option value="">--Category--</option>
 	<?php
       foreach($category as $cview){
