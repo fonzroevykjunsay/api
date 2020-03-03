@@ -15,10 +15,12 @@ $value = $list;
 
 
     <div class="navbar">
-        <a href="index.php?navigation=product">Show</a>
-        <a href="index.php?navigation=categories">Category</a>
-        <a href="index.php?navigation=create">Create</a>
-        <a href="index.php?navigation=delete">Delete</a>
+        <ul>
+     <li><a href="index.php?navigation=product">Show</a><li>
+       <li> <a href="index.php?navigation=categories">Category</a><li>
+       <li> <a href="index.php?navigation=create">Create</a><li>
+        <li><a href="index.php?navigation=delete">Delete</a><li>
+        </ul>
     </div>
 
 <h1> Product Details </h1>
@@ -42,7 +44,5 @@ $value = $list;
 
 </table>
 
-    <div class="footer">
-        <h2>Footer</h2>
-    </div>
+   
 </html>
