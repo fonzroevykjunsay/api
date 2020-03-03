@@ -17,10 +17,10 @@
 
     <div class="navbar">
 	    <ul>
-        <a href="index.php?navigation=product">Show</a><
-        <a href="index.php?navigation=categories">Category</a>
-        <a href="index.php?navigation=create">Create</a>
-        <a href="index.php?navigation=delete">Delete</a>
+       <li> <a href="index.php?navigation=product">Show</a> </li>
+         <li><a href="index.php?navigation=categories">Category</a> </li>
+        <li> <a href="index.php?navigation=create">Create</a> </li>
+       <li>  <a href="index.php?navigation=delete">Delete</a> </li>
 	    </ul>
     </div>
 	<h1> Update Product </h1>
