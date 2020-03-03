@@ -4,7 +4,7 @@
 	$data = json_decode($json,true);
 	$category = $data['records'];
 ?>
-
+      <link rel="stylesheet" type="text/css" href="css/style.css">
 <form action="pro_create.php" method="POST">
 <h1> Create Product </h1>
 	<div class = "category">
