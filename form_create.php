@@ -7,7 +7,7 @@
       <link rel="stylesheet" type="text/css" href="css/style.css">
 <form action="pro_create.php" method="POST">
 <h1> Create Product </h1>
-	  <div class="category">
+	  <div class="create">
 <input type="text" name="name" placeholder="name"/><br><br>
 <input type="text" name="description" placeholder="description"/><br><br>
 <input type="text" name="price" placeholder="price"/><br><br>
