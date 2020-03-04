@@ -33,6 +33,10 @@ table {
 background-color: #fff1e9;
 	 border: 1px solid #ddd;
 }
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
 }
 
 th, td {
