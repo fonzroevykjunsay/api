@@ -19,7 +19,7 @@ $value = $list;
      <li><a href="index.php?navigation=product">Show</a><li>
        <li> <a href="index.php?navigation=categories">Category</a><li>
        <li> <a href="index.php?navigation=create">Create</a><li>
-        <li><a href="index.php?navigation=delete">Delete</a><li>
+     
         </ul>
 	</div>
 <h1> Product Details </h1>
@@ -29,12 +29,10 @@ $value = $list;
 		<p> <b>Price:  </b><?php echo $value['price']; ?></p>
 		<p>	<b>Description:  </b><?php echo $value['description']; ?> </p>
 		<p>	<b>Category:  </b><?php echo $value['category_id'];?> </p>
+	 <div style=
 	 <ul>
 		 <li><a href="form_update.php?id=<?php echo $id ?>">Update</a></li>
-	 </ul>
-	 <ul>
 		 <li><a href="pro_delete.php?id=<?php echo $id ?>">Delete</a></li>
-	 </ul>
 	</div>
 </table>
 
