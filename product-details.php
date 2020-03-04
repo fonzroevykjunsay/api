@@ -41,6 +41,23 @@ $value = $list;
         <td><a href="form_update.php?id=<?php echo $id ?>">Update</a></td>
         <td><a href="pro_delete.php?id=<?php echo $id ?>">Delete</a></td>
     </tr>
+    	<h1> Update Product </h1>
+<form action="pro_update.php?id=<?php echo $id ?>" method="POST"><br><br>
+	  <div style="margin: auto; width:15%; border:3px solid black;padding: 10px;">
+	<input type="text" name="name" value="<?php echo $result['name'];?>"/><br><br>
+	<input type="text" name="description" value="<?php echo $result['description']; ?>"/><br><br>
+	<input type="text" name="price" value="<?php echo $result['price']; ?>"/><br><br>
+	<select name="category">
+	<option value="<?php echo $result['category_id'];?>"><?php echo $result['category_name'];?></option>
+		<?php
+		foreach($category as $cview){
+		?>
+			<option value="<?php echo $cview['id']?>"><?php echo $cview['name']?></option>
+		<?php
+		}
+		?>
+		</select>
+	<input type="submit" name="submit" value="submit"/>
 
 </table>
 
