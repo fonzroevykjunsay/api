@@ -29,7 +29,7 @@ $value = $list;
 		<p> <b>Price:  </b><?php echo $value['price']; ?></p>
 		<p>	<b>Description:  </b><?php echo $value['description']; ?> </p>
 		<p>	<b>Category:  </b><?php echo $value['category_id'];?> </p>
-	 <div style= "text-allign: center; margin: 100 ; padding: 0px ;">
+	 <div style= "text-allign: center; margin: 100 ; padding: 0px ;	list-style-type: none; overflow: hidden;">
 	 <ul>
 		 <li><a href="form_update.php?id=<?php echo $id ?>">Update</a></li>
 		 <li><a href="pro_delete.php?id=<?php echo $id ?>">Delete</a></li>
