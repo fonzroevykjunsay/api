@@ -27,9 +27,10 @@ li a:hover {
   background-color: #db75c5;
 }
 table {
-	background-color: #fff1e9
+	
   border-collapse: collapse;
   width: 100%;
+background-color: #fff1e9
 }
 
 th, td {
