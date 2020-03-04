@@ -14,7 +14,7 @@ $value = $list;
     </head>
 
 
-    <div class="navbar">
+    <div style="margin: auto; width:15%; border:3px solid black;padding: 10px;">
         <ul>
      <li><a href="index.php?navigation=product">Show</a><li>
        <li> <a href="index.php?navigation=categories">Category</a><li>
