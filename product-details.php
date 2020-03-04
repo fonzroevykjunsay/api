@@ -26,10 +26,10 @@ $value = $list;
 <h1> Product Details </h1>
 
 <div class="body">
-	<p> <b>Product:  </b><?php echo $result['name']; ?></p>
-		<p> <b>Price:  </b><?php echo $result['price']; ?></p>
-		<p>	<b>Description:  </b><?php echo $result['description']; ?> </p>
-		<p>	<b>Category:  </b><?php echo $result['category_id'];?> </p>
+	<p> <b>Product:  </b><?php echo $value['name']; ?></p>
+		<p> <b>Price:  </b><?php echo $value['price']; ?></p>
+		<p>	<b>Description:  </b><?php echo $value['description']; ?> </p>
+		<p>	<b>Category:  </b><?php echo $value['category_id'];?> </p>
 	</div>
 </table>
 
