@@ -24,7 +24,7 @@ $value = $list;
 	</div>
 <h1> Product Details </h1>
 
- <div style="margin: auto; width:15%; background-color: #edffea;border:3px solid black;padding: 10px;">
+ <div style="margin: auto; width:15%; background-color: #d7fffd; border:3px solid black;padding: 10px;">
 	<p> <b>Product:  </b><?php echo $value['name']; ?></p>
 		<p> <b>Price:  </b><?php echo $value['price']; ?></p>
 		<p>	<b>Description:  </b><?php echo $value['description']; ?> </p>
