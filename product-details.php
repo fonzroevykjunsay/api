@@ -14,18 +14,17 @@ $value = $list;
     </head>
 
 <div class="navbar">
-    <div style="margin: auto; width:15%; border:3px solid black;padding: 10px;">
+   
         <ul>
      <li><a href="index.php?navigation=product">Show</a><li>
        <li> <a href="index.php?navigation=categories">Category</a><li>
        <li> <a href="index.php?navigation=create">Create</a><li>
         <li><a href="index.php?navigation=delete">Delete</a><li>
         </ul>
-    </div>
 	</div>
 <h1> Product Details </h1>
 
-<div class="body">
+ <div style="margin: auto; width:15%; border:3px solid black;padding: 10px;">
 	<p> <b>Product:  </b><?php echo $value['name']; ?></p>
 		<p> <b>Price:  </b><?php echo $value['price']; ?></p>
 		<p>	<b>Description:  </b><?php echo $value['description']; ?> </p>
