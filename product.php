@@ -34,9 +34,7 @@ foreach($list as $value){
     ?>
     <tr>
         <td><?php echo $value['id'];?></td>
-	    <div style="background-color; black">
         <td><a href="product-details.php?id=<?php echo $value['id'];?>"><?php echo $value['name'];?></a></td>
-	    </div>
         <td><?php echo $value['price'];?></td>
     </tr>
 <?php
