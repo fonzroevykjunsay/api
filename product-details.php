@@ -33,6 +33,7 @@ $value = $list;
 	 <ul>
 		 <li><a href="form_update.php?id=<?php echo $id ?>">Update</a></li>
 		 <li><a href="pro_delete.php?id=<?php echo $id ?>">Delete</a></li>
+		 </ul>
 	</div>
 </table>
 
