@@ -22,7 +22,7 @@ $value = $list;
         <li><a href="index.php?navigation=delete">Delete</a><li>
         </ul>
     </div>
-
+	</div>
 <h1> Product Details </h1>
 
 <div class="body">
