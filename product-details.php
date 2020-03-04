@@ -31,7 +31,7 @@ $value = $list;
 		<p>	<b>Category:  </b><?php echo $value['category_id'];?> </p>
 	 <div style= "margin: 0 ; padding: 50px ; overflow: hidden; ">
 	 <ul>
-		 <li><a href="form_update.php?id=<?php echo $id ?>">Update</a></li>
+		 <li><a href="form_update.php?id=<?php echo $id ?>">Update</a></li><br>
 		 <li><a href="pro_delete.php?id=<?php echo $id ?>">Delete</a></li>
 	</div>
 </table>
