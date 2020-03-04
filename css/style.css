@@ -33,7 +33,9 @@ table {
 background-color: #fff1e9;
 }
 table tr tr td td{
-	background-color: black;
+	 border-collapse: collapse;
+  width: 100%;
+background-color: #fff1e9;
 }
 
 th, td {
