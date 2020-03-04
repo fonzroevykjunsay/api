@@ -29,9 +29,9 @@ $value = $list;
 		<p> <b>Price:  </b><?php echo $value['price']; ?></p>
 		<p>	<b>Description:  </b><?php echo $value['description']; ?> </p>
 		<p>	<b>Category:  </b><?php echo $value['category_id'];?> </p>
-	 <div style= "text-allign: center; margin: 0 ; padding: 50px ; overflow: hidden; ">
+	 <div style= "text-allign: center; margin: 0 ; padding: 50px ;">
 	 <ul>
-		 <li><a href="form_update.php?id=<?php echo $id ?>">Update</a></li><br><br>
+		 <li><a href="form_update.php?id=<?php echo $id ?>">Update</a></li>
 		 <li><a href="pro_delete.php?id=<?php echo $id ?>">Delete</a></li>
 	</div>
 </table>
