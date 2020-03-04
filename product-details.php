@@ -25,40 +25,12 @@ $value = $list;
 
 <h1> Product Details </h1>
 
-<table>
-    <tr>
-        <th>Product</th>
-        <th>Description</th>
-        <th>Price</th>
-        <th>Category ID</th>
-    </tr>
-
-    <tr>
-        <td><?php echo $value['name'];?></td>
-        <td><?php echo $value['description'];?></td>
-        <td><?php echo $value['price'];?></td>
-        <td><?php echo $value['category_id'];?></td>
-        <td><a href="form_update.php?id=<?php echo $id ?>">Update</a></td>
-        <td><a href="pro_delete.php?id=<?php echo $id ?>">Delete</a></td>
-    </tr>
-    	<h1> Update Product </h1>
-<form action="pro_update.php?id=<?php echo $id ?>" method="POST"><br><br>
-	  <div style="margin: auto; width:15%; border:3px solid black;padding: 10px;">
-	<input type="text" name="name" value="<?php echo $result['name'];?>"/><br><br>
-	<input type="text" name="description" value="<?php echo $result['description']; ?>"/><br><br>
-	<input type="text" name="price" value="<?php echo $result['price']; ?>"/><br><br>
-	<select name="category">
-	<option value="<?php echo $result['category_id'];?>"><?php echo $result['category_name'];?></option>
-		<?php
-		foreach($category as $cview){
-		?>
-			<option value="<?php echo $cview['id']?>"><?php echo $cview['name']?></option>
-		<?php
-		}
-		?>
-		</select>
-	<input type="submit" name="submit" value="submit"/>
-
+<div class="body">
+	<p> <b>Product:  </b><?php echo $result['name']; ?></p>
+		<p> <b>Price:  </b><?php echo $result['price']; ?></p>
+		<p>	<b>Description:  </b><?php echo $result['description']; ?> </p>
+		<p>	<b>Category:  </b><?php echo $result['category_id'];?> </p>
+	</div>
 </table>
 
    
