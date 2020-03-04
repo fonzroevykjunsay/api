@@ -24,13 +24,13 @@ $value = $list;
 	</div>
 <h1> Product Details </h1>
 
- <div style="margin: auto; width:15%; border:3px solid black;padding: 10px;">
+ <div style="margin: auto; width:15%; background-color: white ;border:3px solid black;padding: 10px;">
 	<p> <b>Product:  </b><?php echo $value['name']; ?></p>
 		<p> <b>Price:  </b><?php echo $value['price']; ?></p>
 		<p>	<b>Description:  </b><?php echo $value['description']; ?> </p>
 		<p>	<b>Category:  </b><?php echo $value['category_id'];?> </p>
 	 <ul>
-		 <li><a href="form_update.php?id=<?php echo $id ?>">Update</a></li>
+		 <li><a href="form_update.php?id=<?php echo $id ?>">Update</a></li><br>
 		<li><a href="pro_delete.php?id=<?php echo $id ?>">Delete</a></li>
 	 </ul>
 	</div>
