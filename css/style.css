@@ -31,16 +31,14 @@ table {
   border-collapse: collapse;
   width: 100%;
 background-color: #fff1e9;
+	 border: 1px solid #ddd;
 }
-table tr tr td td{
-	 border-collapse: collapse;
-  width: 100%;
-background-color: #fff1e9;
 }
 
 th, td {
   text-align: left;
   padding: 8px;
+border: 1px solid #ddd;
 }
 
 
