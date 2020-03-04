@@ -25,7 +25,7 @@
     </div>
 	<h1> Update Product </h1>
 <form action="pro_update.php?id=<?php echo $id ?>" method="POST"><br><br>
-	  <div style="margin: auto; width:15%; border:3px solid black;padding: 10px; background-color;#deddfa">
+	  <div style="margin: auto; width:15%; border:3px solid black;padding: 10px;background-color: #deddfa">
 	<input type="text" name="name" value="<?php echo $result['name'];?>"/><br><br>
 	<input type="text" name="description" value="<?php echo $result['description']; ?>"/><br><br>
 	<input type="text" name="price" value="<?php echo $result['price']; ?>"/><br><br>
