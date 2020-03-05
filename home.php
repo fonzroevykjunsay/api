@@ -13,15 +13,6 @@ $value = $list;
       <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
 
-<div class="navbar">
-   
-        <ul>
-     <li><a href="index.php?navigation=product">Show</a><li>
-       <li> <a href="index.php?navigation=categories">Category</a><li>
-       <li> <a href="index.php?navigation=create">Create</a><li>
-     
-        </ul>
-	</div>
 <h1> Product Details </h1>
 
  <div style="margin: auto; width:15%; background-color: #deddfa; border:3px solid black;padding: 10px;">
