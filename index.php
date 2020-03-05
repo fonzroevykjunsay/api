@@ -27,6 +27,9 @@ $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET[
           case 'create':
             require_once 'form_create.php';
             break;
+		case 'update':
+            require_once 'form_update.php';
+            break; 
           case 'details':
             require_once 'home.php';
             break;
