@@ -22,8 +22,8 @@ $value = $list;
 		<p>	<b>Category:  </b><?php echo $value['category_id'];?> </p>
 	 <div style= "text-allign: center; margin: 0 ; padding: 0; list-style-type: none; overflow: hidden;">
 	 <ul>
-		 <li><a href="form_update.php?id=<?php echo $id ?>">Update</a></li>
-		 <li><a href="pro_delete.php?id=<?php echo $id ?>">Delete</a></li>
+		 <li><a href=index.php?navigation=update&id=<?php echo $id ?>">Update</a></li>
+		 <li><a href=index.php?navigation=delete&id=<?php echo $id ?>">Delete</a></li>
 		 </ul>
 	</div>
 </table>
